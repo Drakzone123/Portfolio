@@ -1,0 +1,91 @@
+.work-page-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    
+} 
+.work-page-two
+> .page-col {
+    padding-top:30px ;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+}
+.Portpage-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 480px;
+    background-color: rgba(160, 205, 255, 0.5);
+    padding-left: 20px;
+    padding-block: 10px;
+    border-radius: 7px;
+
+}
+.Portpage-head > h1 {
+    margin: 0px;
+}
+
+.work-page-two
+> .page-col 
+> .grid-container {
+    padding-top: 60px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding-bottom: 60px;
+
+}
+.card-porject {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+   
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.205);
+
+
+    transition: box-shadow 0.2s;
+              
+}
+
+.project-img
+>img {
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    background-color: rgba(190, 190, 190, 0.288);
+    border-radius: 7px;
+
+    transition: width 0.2s,
+                height 0.2s;
+}
+.project-info {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project-img
+>img:hover {
+    
+    width: 410px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+.card-porject:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.205);
+   
+}
+
