@@ -1,0 +1,253 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5px;
+}
+.body > div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    min-width: 900px;
+    max-width: 900px;
+    min-height: 300px;
+    max-height: 300px;
+    border: 2px solid black;
+}
+.layout {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+}
+/* head pad box */
+#head {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    height: 50px;
+}
+.f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    height: 100%;
+    flex-basis: 17.5%;
+}
+#esc {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-basis: 7%;
+
+}
+#head-option1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 100%;
+    margin-left: 20px;
+}
+#head-option2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    height: 100%;
+    flex-basis: 22%;
+}
+
+/* main pad box */
+#main {
+    display: flex;
+    height: 240px;
+    flex-basis: 100%;
+}
+#main-pad {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+#main-line1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: 20%;
+}
+#main-line2 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: 20%;
+}
+#main-line3 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: 20%;
+}
+#main-line4 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: 20%;
+}
+#main-line5 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: 20%;
+}
+/* arrow pad */
+#arrow-pad {
+    display: flex;
+    flex-direction:column;
+    flex-basis:18%
+}
+#main-option {
+    display: flex;
+    flex-direction:column;
+    flex-basis:50%
+}
+#option-line1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-basis:40%
+}
+#option-line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-basis:40%
+}
+#arrow {
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    flex-basis:50%
+}
+#arrow-line1 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-basis:40%
+}
+#arrow-line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    flex-basis:40%
+}
+/* num pad */
+#num-pad {
+    display: flex;
+    flex-direction: column;
+    flex-basis:16%
+}
+#num-pad2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis:6%
+}
+.num2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+#pin-dash-pos {
+    display: flex;
+    align-items: center;
+    height: 46px;
+
+}
+#num-line1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-basis:40%
+}
+#num-line2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-basis:40%
+}
+#num-line3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-basis:40%
+}
+#num-line4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-basis:40%
+}
+#num-line5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-basis:40%
+}
+/* pin */
+.pin {
+    border: 1px solid black;
+    width: 34px;
+    height: 34px;
+}
+.pin-l {
+    border: 1px solid black;
+    width: 40px;
+    height: 34px;
+}
+/* num-pin */
+#pin-0 {
+    width: 70px;
+}
+#pin-plus ,#pin-en{
+    height: 90px;
+}
+/* main=pin */
+#pin-del {
+    width: 68px;
+}
+#l-shift {
+    width: 95px;
+}
+#r-shift {
+    width: 80px;
+}
+#pin-enter {
+    width: 73px;
+}
+#pin-caps {
+    width: 65px;
+}
+#pin-space {
+    width: 250px;
+}
+#pin-tap {
+    width: 60px;
+}
+/* arrow-pin */
+
+
+

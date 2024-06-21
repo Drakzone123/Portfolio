@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.body {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 100px;
+    position: relative;
+}
+#box1 {
+    position: absolute;
+    background-color: red;
+    width: 33%;
+    height: 33%;
+}
+#box2 {
+    position: absolute;
+    background-color: blue;
+    width: 33%;
+    height: 33%;
+    margin-left: 33.5%;
+}
+#box3 {
+    position: absolute;
+    background-color: saddlebrown;
+    width: 33%;
+    height: 33%;
+    margin-left: 67%;
+}
+#box4 {
+    position: absolute;
+    background-color: red;
+    width: 33%;
+    height: 33%;
+    margin-top: 33.5%;
+}
+#box5 {
+    position: absolute;
+    background-color: blue;
+    width: 33%;
+    height: 33%;
+    margin-left: 33.5%;
+    margin-top: 33.5%;
+}
+#box6 {
+    position: absolute;
+    background-color: saddlebrown;
+    width: 33%;
+    height: 33%;
+    margin-left: 67%;
+    margin-top: 33.5%;
+}
+#box7 {
+    position: absolute;
+    background-color: red;
+    width: 33%;
+    height: 33%;
+    margin-top: 33.5%;
+    margin-top: 67%;
+}
+#box8 {
+    position: absolute;
+    background-color: blue;
+    width: 33%;
+    height: 33%;
+    margin-left: 33.5%;
+    margin-top: 33.5%;
+    margin-top: 67%;
+}
+#box9 {
+    position: absolute;
+    background-color: saddlebrown;
+    width: 33%;
+    height: 33%;
+    margin-left: 67%;
+    margin-top: 67%;
+}
+

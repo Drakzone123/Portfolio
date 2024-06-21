@@ -1,0 +1,410 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: black;
+}
+.body-containner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+.sidebar-position {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 15.5%;
+    padding: 12px;
+    border-right:1px solid rgba(128, 128, 128, 0.329) ;
+}
+.sidebar-container{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+}
+.logoposion {
+    width: inherit;
+    color: white;
+    text-align: start;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+.menulist {
+    display: flex;
+    flex-direction:column;
+    width: inherit;
+    height: inherit;
+    margin-top: 10px;
+}
+.bottom-menu {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    margin-bottom: 20px;
+
+}
+
+.bottom-menu >  button,
+.menulist > button {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    align-items: center;
+    gap: 15px;
+    margin: 5px;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: 400;
+
+    cursor: pointer;
+    transition: background-color, 0.2s;
+}
+.menulist > button:hover {
+    background-color: rgba(66, 66, 66, 0.5);
+}
+.maincontent-position {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    margin-left: 17%;
+    justify-content: center;
+}
+.main-feed {
+
+    width: 1013px;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    height: inherit;
+    
+}
+.story-side {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+}
+.story-card {
+    display: flex;
+    flex-direction: column;
+    width:70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+.story-stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.story-stat > img {
+    object-fit: cover;
+    object-position: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.story-card > p {
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+
+.post-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+    gap: 10px;
+    margin-top: 30px;
+}
+.post-card > .head-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.post-card > .head-card > .profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: black;
+    border:2px solid red;
+    border-radius: 50%;
+}
+.post-card > .head-card > .profile-card > img {
+    object-fit: cover;
+    object-position: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.post-card > .head-card > .name-card {
+    display: flex;
+    flex: row;
+    width: 100%;
+    color: white;
+    align-content: center;
+    margin-left: 15px;
+    font-size: 12px;   
+    font-weight: bold;
+}
+.post-card > .head-card > .name-card > p > span {
+    color: gray;
+}
+.post-card > .head-card > .set-icon {
+    color: white;
+
+    cursor: pointer;
+}
+
+.post-card > .img-card > img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    width: 99%;
+    border: 1px solid rgba(133, 133, 133, 0.281);
+    border-radius: 5px;
+    align-items: center;
+}
+.post-card
+ > .emote-card
+ {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+ }
+ .post-card
+ > .emote-card
+ > .emote-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5px;
+ }
+ .post-card
+ > .emote-card
+ > .emote-list
+ > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    cursor: pointer;
+
+    transition: color 0.2s;
+ }
+ .post-card
+ > .emote-card
+ > .emote-list
+ > button:hover {
+    
+    color: rgb(122, 122, 122);
+ }
+ .post-card
+ > .emote-card
+ > .report-zone
+ > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    cursor: pointer;
+
+    transition: color 0.2s;
+ }
+ .post-card
+ > .emote-card
+ > .report-zone
+ > button:hover {
+    
+    color: rgb(122, 122, 122);
+ }
+
+ .post-card > .status-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.post-card 
+> .status-card
+> .like-stats {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.post-card 
+> .status-card
+> .comment-zone {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    font-size: 14px;
+}
+.post-card 
+> .status-card
+> .comment-zone
+> button {
+    background-color: rgba(0, 0, 0, 0);
+    border:none ;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.post-card 
+> .status-card
+> .comment-zone
+> button:hover {
+    
+    color: rgb(92, 92, 92);
+}
+
+
+
+
+
+
+.friendlist {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 319px;
+    padding-left: 64px;
+}
+.left-profile {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    height: 54px;
+}
+.left-profile > .imgContain {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    align-items: center;
+
+}
+.left-profile > .imgContain > img {
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.left-profile > .info-contain {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    margin-left: 15px;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 0px;
+}
+.left-profile > .info-contain > .name-info {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.left-profile > .info-contain > .status-info {
+    font-size: 14px;
+    color: gray;
+}
+.left-profile > button {
+    color: rgb(75, 122, 250);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 12px;
+
+
+    transition: color 0.2s;
+    cursor: pointer;
+}
+.left-profile > button:hover {
+    color: rgb(255, 255, 255);
+}
+.request-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.head-request  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.head-request > button {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 12px;
+
+
+    transition: color 0.2s;
+    cursor: pointer;
+}
+.head-request > button:hover {
+    color: rgb(145, 145, 145);
+}
+
+
+
+
+
+
+
+
+
