@@ -18,6 +18,7 @@ form {
     border: 1px solid rgba(128, 128, 128, 0.4);
     background-color: rgba(128, 128, 128, 0.11);
     border-radius: 15px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.13);
 }
 label {
     font-size: 20px;
@@ -47,8 +48,9 @@ label {
     padding-inline: 15px;
     border-radius: 50px;
     color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.342);
 
-    transition:background-color 0.2s ;
+    transition:background-color 0.2s;
 
 }
 .btn:hover {
